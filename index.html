@@ -622,7 +622,7 @@
         </div>
       </div>
     </footer>
-    <div data-modal class="backdrop">
+    <div data-modal class="backdrop is-hidden">
       <!-- is-hidden -->
       <div class="modal">
         <button data-modal-close class="modal-button">
@@ -636,7 +636,7 @@
 
           <div class="modal-form__input">
             <input
-              class="modal-input modal-form-name"
+              class="modal-form__item modal-form-name"
               type="text"
               name="user-name"
               placeholder=" "
@@ -653,7 +653,7 @@
           <div class="modal-form__input">
             <input
               type="tel"
-              class="modal-input modal-form-phone"
+              class="modal-form__item modal-form__phone"
               name="user-phone"
               placeholder=" "
               id="user-phone"
@@ -668,7 +668,7 @@
           <label for="modal-mail" class="modal-form__label">Почта</label>
           <div class="modal-form__input">
             <input
-              class="modal-input user-modal-mail"
+              class="modal-form__item user-modal-mail"
               type="email"
               name="modal-mail"
               placeholder=" "
@@ -691,10 +691,11 @@
             ></textarea>
           </div>
 
-          <label class="checkbox-label">
-            <input class="checkbox-input" type="checkbox" neme="checkbox" />
-            <span class="checkbox-icon"></span>Соглашаюсь с рассылкой и принимаю
-            <a class="checkbox-link" href="">Условия договора</a>
+          <label class="checkbox__label">
+            <input class="checkbox__input" type="checkbox" neme="checkbox" />
+            <span class="checkbox__icon"></span>Соглашаюсь с рассылкой и
+            принимаю
+            <a class="checkbox__link" href="">Условия договора</a>
           </label>
           <button type="submit" class="form-submit">Отправить</button>
         </form>
