@@ -26,16 +26,11 @@
   margin-left: 30px;
   margin-top: 30px;
 }
-.clients-list__item .icon {
+.clients-list__icon {
   fill: var(--icons-color);
   transition: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.clients-list__link:hover,
-.clients-list__link:focus {
-  border-color: var(--accent-color);
 }
 
 .clients-list__link:hover .icon,
@@ -55,4 +50,9 @@
   transition: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }

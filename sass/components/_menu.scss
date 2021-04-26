@@ -9,10 +9,10 @@
 
 .menu__item {
   position: relative;
-}
 
-.menu__item:not(:last-child) {
-  margin-right: 50px;
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .menu__link {

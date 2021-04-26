@@ -12,10 +12,10 @@
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
-}
 
-.contacts-list__contacts:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .contacts-list__icon {

@@ -45,15 +45,12 @@ body {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.link:hover,
-.link:focus {
-  color: var(--accent-color);
-}
-
-.link:active {
-  color: var(--accent-color);
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--accent-color);
+  }
 }
 
 img {
@@ -83,16 +80,15 @@ img {
 
 .current {
   color: var(--accent-color);
-}
-
-.current::after {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  content: '';
-  display: block;
-  width: 100%;
-  height: 4px;
-  background-color: #188ce8;
-  border-radius: 2px;
+  &::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #188ce8;
+    border-radius: 2px;
+  }
 }

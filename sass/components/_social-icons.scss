@@ -36,9 +36,8 @@
 .social-icons__link:hover,
 .social-icons__link:focus {
   background-color: var(--accent-color);
-}
 
-.social-icons__link:hover .icon,
-.social-icons__link:focus .icon {
-  fill: var(--dark-bg-text-color);
+  .icon {
+    fill: var(--dark-bg-text-color);
+  }
 }
