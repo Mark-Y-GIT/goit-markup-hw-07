@@ -498,6 +498,8 @@ img {
   text-align: left;
   align-items: baseline;
   justify-content: space-between;
+}
+.footer__content {
   padding-top: 60px;
   padding-bottom: 60px;
 }
