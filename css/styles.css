@@ -857,7 +857,7 @@ img {
   border-color: var(--accent-color);
 }
 
-.modal-header {
+.modal__header {
   display: block;
   font-weight: 700;
   font-size: 20px;
@@ -869,7 +869,7 @@ img {
   margin-bottom: 12px;
 }
 
-.form-label {
+.modal-form__label {
   margin-right: auto;
   font-size: 12px;
   line-height: 14px;
@@ -881,31 +881,27 @@ img {
   margin-bottom: 4px;
 }
 
-.form-field {
-  position: relative;
-}
-
 .modal-form {
   display: flex;
   flex-direction: column;
 }
 
-.form-input {
+.modal-form__input {
   position: relative;
   width: 100%;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input {
+.modal-form__input {
   margin-bottom: 10px;
 }
-.form-input.text-area {
+.modal-form__input.text-area {
   margin-bottom: 0px;
   height: 122px;
   margin-bottom: 20px;
 }
 
-.form-input .icon {
+.modal-form__input .icon {
   display: block;
   position: absolute;
   top: 50%;
@@ -934,8 +930,8 @@ textarea {
 .modal-input:focus,
 .modal-textarea:focus,
 .modal-textarea:hover,
-.form-input:hover,
-.form-input:focus,
+.modal-form__input:hover,
+.modal-form__input:focus,
 .footer-input-mail:hover,
 .footer-input-mail:focus {
   fill: var(--accent-color);
@@ -943,7 +939,7 @@ textarea {
   outline-color: var(--accent-color);
 }
 
-.form-input:focus-within {
+.modal-form__input:focus-within {
   fill: var(--accent-color);
 }
 
