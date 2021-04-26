@@ -1,0 +1,15 @@
+.filter__content {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.filter__button {
+  display: flex;
+  justify-content: center;
+}
+.filter__button {
+  margin-bottom: 50px;
+}
+
+.filter__item:not(:last-child) {
+  margin-right: 8px;
+}
