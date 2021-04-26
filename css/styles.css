@@ -87,8 +87,8 @@ img {
   margin-right: auto;
 }
 
-.contacts:hover .icon,
-.contacts:focus .icon {
+.contacts-list__contacts:hover .contacts-list__icon,
+.contacts-list__contacts:focus .contacts-list__icon {
   fill: var(--accent-color);
 }
 
